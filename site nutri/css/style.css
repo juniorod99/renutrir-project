@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Actor&family=Lobster+Two&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(250.96deg, #6DD25C 11.17%, #F1F8AB 85.69%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo{
+    height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item{
+    font-family: 'Sarala', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #69594F;
+    font-size: 18px;
+}
+
+.main{
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight:600;
+    letter-spacing: 0px;
+    font-size: 32px;
+    color: #69594F;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    color: #69594F;
+    padding-left: 10px;
+    background: linear-gradient(270deg, #3DD066 0%, rgba(235, 255, 6, 0.5) 100%);}
+
+.conteudo-principal-botao{
+    width: 280px;
+    height: 60px;
+    border: none;
+    background:#52C05D;;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:24px;
+    color:#FFFFFF;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.15);
+}
+
+.conteudo-principal-imagem{
+    height: 370px;
+}
+
+.conteudo-secundario{
+
+    margin-top:42px;
+    background-image: url(../imagens/bg-fruits2.png);
+    background-size: cover;
+    padding: 50px;
+}
+
+.ml{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 32px;
+    margin-left: 150px;
+}
+
+.conteudo-secundario-titulo{
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #645757;
+}
+
+.conteudo-secundario-item{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #645757;
+    width: 610px;
+}
+
+.servicos{
+    padding: 50px;
+}
+
+.servicos-titulo{
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #645757;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+
+.servicos-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:64px;
+    
+}
+
+.servicos-container-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    background: rgba(88, 86, 86, 0.13);
+    border-radius: 20px;
+    padding: 30px 10px;
+    width: 23%;
+}
+
+.servicos-container-imagem{
+    height: 100px;
+}
+
+.servicos-container-titulo{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight:500;
+    font-size: 24px;
+    text-align: center;
+    color: #69594F;
+}
+
+.servicos-container-texto{
+    font-family: 'Actor', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #69594F;
+    width: 240px;
+}
+
+.agenda{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.agenda-container{
+    width: 75%;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.25));
+    padding: 30px 50px;
+}
+
+.agenda-titulo{
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #69594F;
+}
+
+.agenda-itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.agenda-texto{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #69594F;
+}
+
+.agenda-botao{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 300px;
+    background: #7B6958;
+    border-radius: 15px;
+    border-style: none;
+    padding: 10px 20px;
+}
+
+.agenda-botao-imagem{
+    width: 42px;
+}
+
+.agenda-botao-texto{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+.rodape-itens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-titulo{
+    font-family: 'Lobster Two', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #483E37;
+    margin-bottom: 5px;
+}
+
+.rodape-lista-item{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #483E37;
+    margin-bottom: 5px;
+    list-style: none;
+    /*list-style-image: url(../imagens/whatsapp.png);*/
+}
+
+.rodape-item{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.rodape-icone{
+    width: 35px;
+    height: 35px;
+}
+
+.creditos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-top: 42px;
+    padding: 12px;
+    gap: 10px;
+}
+
+.creditos-texto{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.creditos-imagem{
+    display: block;
+    height: 52px;
+}
